@@ -8,7 +8,7 @@ pipeline {
         }
         stage('compile') { 
             steps {
-                sh "mvnc ompile" 
+                sh "mvn compile" 
             }
         }
         stage('test') { 
